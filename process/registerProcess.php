@@ -16,7 +16,7 @@
 
  // Melakukan insert ke databse dengan query dibawah ini
  $query = mysqli_query($con,
- "INSERT INTO users(email, password, name, npm, phonenum, membership)
+ "INSERT INTO users(email, password, name, phonenum, membership)
  VALUES
  ('$email', '$password', '$name', '$phonenum', '$membership')")
  or die(mysqli_error($con)); // perintah mysql yang gagal dijalankan ditangani oleh perintah “or die”

@@ -9,7 +9,7 @@
  <hr>
  <div class="d-flex">
     <div class="card" style="width: 18rem;">
-        <img class="card-imgtop" src="https://pbs.twimg.com/media/FZ5E23CUcAAR37y?format=jpg&name=900x900" width="30px" alt="Card image cap">
+        <img class="card-img-top" src="https://pbs.twimg.com/media/FZ5E23CUcAAR37y?format=jpg&name=900x900" width="30px" alt="Card image cap">
     <div class="card-body">
         <h5 class="card-title">She Hulk</h5>
         <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -17,7 +17,7 @@
     </div>
  </div>
  <div class="card mx-4" style="width: 18rem;">
-    <img class="card-imgtop" src="https://pbs.twimg.com/media/FVJJyDpVEAAOf2F?format=jpg&name=medium" width="30px" alt="Card image cap">
+    <img class="card-img-top" src="https://pbs.twimg.com/media/FVJJyDpVEAAOf2F?format=jpg&name=medium" width="30px" alt="Card image cap">
     <div class="card-body">
         <h5 class="card-title">Thor: Love and Thunder</h5>
         <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -25,7 +25,7 @@
     </div>
  </div>
  <div class="card" style="width: 18rem;">
-    <img class="card-imgtop" src="https://pbs.twimg.com/media/FVJJyDpVEAAOf2F?format=jpg&name=medium" width="30px" alt="Card image cap">
+    <img class="card-img-top" src="https://pbs.twimg.com/media/FVJJyDpVEAAOf2F?format=jpg&name=medium" width="30px" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title">Thor: Love and Thunder</h5>
         <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

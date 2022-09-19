@@ -7,7 +7,7 @@
 
  //tampung nilai yang ada di from ke variable
  // sesuaikan variabel name yang ada di registerPage.php disetiap input
- $username = $_POST['email'];
+ $email = $_POST['email'];
  $password = $_POST['password'];
 
  // Melakukan insert ke databse dengan query dibawah ini
