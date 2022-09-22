@@ -10,26 +10,26 @@
 
     <div class="body d-flex justify-content-between">
         
-        <h4 >LIST MOVIE</h4>
+        <h4>LIST SERIES</h4>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-        <a href="./addMoviesPage.php"><i style="color: red" class="fa fa-plus-square fa-3x"></i></a>
+        <a href="./addSeriesPage.php"><i style="color: red" class="fa fa-plus-square fa-3x"></i></a>
      </div> 
     <hr>
-        <table class="table ">
+        <table class="table">
         <thead>
             <tr>
                 <th scope="col">No</th>
                 <th scope="col">Name</th>
                 <th scope="col">Genre</th>
-                <th scope="col">Realese</th>
+                <th scope="col">Year Realese</th>
+                <th scope="col">Episode</th>
                 <th scope="col">Season</th>
                 <th scope="col">Option</th>
-
             </tr>
     </thead>
     <tbody>
         <?php
-        $query = mysqli_query($con, "SELECT * FROM movies") or 
+        $query = mysqli_query($con, "SELECT * FROM series") or 
 die(mysqli_error($con));
 
             if (mysqli_num_rows($query) == 0) {
@@ -43,10 +43,12 @@ die(mysqli_error($con));
                     <td>'.$data['name'].'</td>
                     <td>'.$data['genre'].'</td>
                     <td>'.$data['realese'].'</td>
+                    <td>'.$data['episode'].'</td>
                     <td>'.$data['season'].'</td>
+                    <td>'.$data['synopsis'].'</td>
                     <td>
-                    <a href="../page/editMoviesPage.php?id='.$data['id'].'"onClick="return confirm ( \'Are you sure want to edit this data?\')"><i style="color: green" class="fa fa-edit fa-2x"></i></a>
-                        <a href="../process/deleteMovieProcess.php?id='.$data['id'].'"onClick="return confirm ( \'Are you sure want to delete this data?\')"><i style="color: red" class="fa fa-trash fa-2x"></i>
+                    <a href="../page/editSeriesPage.php?id='.$data['id'].'"onClick="return confirm ( \'Are you sure want to edit this data?\')"><i style="color: green" class="fa fa-edit fa-2x"></i></a>
+                        <a href="../process/deleteSerieProcess.php?id='.$data['id'].'"onClick="return confirm ( \'Are you sure want to delete this data?\')"><i style="color: red" class="fa fa-trash fa-2x"></i>
                         </a>
                     </td>
                 </tr>';
