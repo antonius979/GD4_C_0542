@@ -24,7 +24,8 @@
                 <th scope="col">Year Realese</th>
                 <th scope="col">Episode</th>
                 <th scope="col">Season</th>
-                <th scope="col">Option</th>
+                <th scope="col">Synopsis</th>
+                <th scope="col"></th>
             </tr>
     </thead>
     <tbody>

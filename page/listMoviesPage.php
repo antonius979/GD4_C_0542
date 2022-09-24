@@ -23,7 +23,7 @@
                 <th scope="col">Genre</th>
                 <th scope="col">Realese</th>
                 <th scope="col">Season</th>
-                <th scope="col">Option</th>
+                <th scope="col"></th>
 
             </tr>
     </thead>
