@@ -2,4 +2,4 @@ Options +FollowSymlinks
 RewriteEngine on
 Options +FollowSymlinks
 RewriteEngine on
-RewriteRule ^GD4_C_0542/page/editMoviesPage-([0-9]+)\.html$ GD4_C_0542/page/editMoviesPage.php?id=$1
+RewriteRule ^editMoviesPage-([0-9]+)\.html$ editMoviesPage.php?id=$1

@@ -36,7 +36,7 @@
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Synopsis</label>
-            <textarea class="form-control" id="season" name="season" aria-describedby="emailHelp"></textarea>
+            <textarea class="form-control" id="synopsis" name="synopsis" aria-describedby="emailHelp"></textarea>
         </div>
 
         <div class="d-grid gap-2">
